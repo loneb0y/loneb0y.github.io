@@ -2,75 +2,84 @@
 <html lang="en"> 
  <head>
  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width">
  <title>loneb0y</title>
 	<style>
-	.rei img {
-	margin-right: -4px;
+	
+	playerboy {
+	position: fixed;
+    bottom: 10%; 
+    right: 8%; 
+	
 	}
-	.sign figcaption {
-	margin-bottom: 200
+	
+	body {
+	background-image: url(rei_gif.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
 	}
-	</style>
+     
+   .links {
+    position: fixed;
+    bottom: 10%; 
+    right: 8%; 
+    line-height: 4px;
+   }
+	
+	p {
+    font-family: algerian, Arial, Helvetica, sans-serif; 
+    font-size: 23pt; 
+   }
+   </style>
  </head>
- <body bgcolor="#000">
-	<center>
-	<p class="rei">
-		<a href="http://t.me/ayanamireithebest"> <img src="rei1.png" title="memes" vspace="100" align="center"> </a> 
-		<a href="http://t.me/contentalexi4a"> <img src="rei2.png" title="articles" vspace="100" align="center"> </a> 
-	</p>
-	</center
-			<head>
-				<meta name="viewport" content="width=device-width">
-			</head>
-				<body link="red" vlink="red" alink="red" bgcolor="black">
-					<center> <video controls="" name="media"><source src="http://s05.volnorez.com:8001/live-app/870118" type="audio/mpeg"></video> </center>
-					<center> <font size="5" color="red"</font> <a href="https://vosslnorez.com/west-chill-radio" title="CHILL"> ~~~~~~~~~RADIO~~~~~~~~~ </a> </center> <br><br><br><br>
-					<center> <font size="5" color="red"</font><em>*click*</em> </center>
-					
-					
-					
-					
-					<center>
-    <div id="radioheart-player"
-     class="panel-black"
-     data-stream="https://listen.myrh.ru/id04044"
+ <body link="white" vlink="white" alink="white" bgcolor="white">
+		<div class="links">
+		<center> <p> <a href="http://t.me/ayanamireithebest" </font><em>Memepage</em> </a> </p> </center>
+		<center> <p> <a href="http://t.me/contentalexi4a" </font><em>HQ content</em> </a> </p> </center>
+	</div>
+    
+	    <div id="radioheart-player"
+     class="brick-black"
+     data-stream="https://listen.myrh.ru/loneb0y"
      data-autostart="false"
-     data-volume="0.1"
-     data-logo="https://pp.vk.me/c424329/v424329449/7a74/uMb8YLeQuQU.jpg"
+     data-volume="0.5"
 >
     <div class="player-wrapper">
-        <div class="controls">
-            <div class="play" id="radioheart-player-play">
-                <i class="fa fa-play"></i>
+        <div class="player-elements">
+            <div class="controls">
+                <div class="play" id="radioheart-player-play">
+                    <i class="fa fa-play"></i>
+                </div>
+                <div class="pause hidden" id="radioheart-player-pause">
+                    <i class="fa fa-stop"></i>
+                </div>
             </div>
-            <div class="pause hidden" id="radioheart-player-pause">
-                <i class="fa fa-stop"></i>
+            <div class="current-song marquee"
+                 id="radioheart-player-current-song"
+                 data-marquee=""
+            >
+            </div>
+            <div class="clear"></div>
+            <div class="sound-control">
+                <div class="mute-control">
+                    <div class="mutecontrol active" id="radioheart-player-mute"></div>
+                </div>
+                <div class="volume-control">
+                    <div class="volume" id="radioheart-player-volume"></div>
+                </div>
             </div>
         </div>
-        <div class="current-song marquee"
-             id="radioheart-player-current-song"
-             data-marquee=""	
-        >
-        </div>
-        <div class="sound-control">
-            <div class="mute-control">
-                <div class="mutecontrol active" id="radioheart-player-mute"></div>
-            </div>
-            <div class="volume-control">
-                <div class="volume" id="radioheart-player-volume"></div>
-            </div>
-        </div>
+        <div class="clear"></div>
     </div>
 </div>
 
 <script src="https://player.radioheart.ru/js/app.js"></script>
 <link type="text/css" rel="stylesheet" href="https://player.radioheart.ru/css/app.css">
-	</center>
-					
-						
-					
-					
-				</body>
-			
+	
+	<p> RADIO WORKS SOMETIMES </p>
+	<p> ON EVENINGS </p>
+	<p> ON THIS MOMENT RADIO IS - OFF </p>
+	
 </body>
 </html>
