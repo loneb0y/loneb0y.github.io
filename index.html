@@ -6,10 +6,10 @@
  <title>loneb0y</title>
 	<style>
 	
-	playerboy {
+	.radinfo {
 	position: fixed;
     bottom: 10%; 
-    right: 8%; 
+    left: 8%; 
 	
 	}
 	
@@ -29,7 +29,8 @@
 	
 	p {
     font-family: algerian, Arial, Helvetica, sans-serif; 
-    font-size: 23pt; 
+    font-size: 15pt;
+	color: white;
    }
    </style>
  </head>
@@ -44,42 +45,42 @@
      data-stream="https://listen.myrh.ru/loneb0y"
      data-autostart="false"
      data-volume="0.5"
+><div id="radioheart-player"
+     class="panel-black"
+     data-stream="https://listen.myrh.ru/loneb0y"
+     data-autostart="false"
+     data-volume="0.5"
 >
     <div class="player-wrapper">
-        <div class="player-elements">
-            <div class="controls">
-                <div class="play" id="radioheart-player-play">
-                    <i class="fa fa-play"></i>
-                </div>
-                <div class="pause hidden" id="radioheart-player-pause">
-                    <i class="fa fa-stop"></i>
-                </div>
+        <div class="controls">
+            <div class="play" id="radioheart-player-play">
+                <i class="fa fa-play"></i>
             </div>
-            <div class="current-song marquee"
-                 id="radioheart-player-current-song"
-                 data-marquee=""
-            >
-            </div>
-            <div class="clear"></div>
-            <div class="sound-control">
-                <div class="mute-control">
-                    <div class="mutecontrol active" id="radioheart-player-mute"></div>
-                </div>
-                <div class="volume-control">
-                    <div class="volume" id="radioheart-player-volume"></div>
-                </div>
+            <div class="pause hidden" id="radioheart-player-pause">
+                <i class="fa fa-stop"></i>
             </div>
         </div>
-        <div class="clear"></div>
+        <div class="sound-control">
+            <div class="mute-control">
+                <div class="mutecontrol active" id="radioheart-player-mute"></div>
+            </div>
+            <div class="volume-control">
+                <div class="volume" id="radioheart-player-volume"></div>
+            </div>
+        </div>
     </div>
 </div>
 
 <script src="https://player.radioheart.ru/js/app.js"></script>
 <link type="text/css" rel="stylesheet" href="https://player.radioheart.ru/css/app.css">
 	
+	<div class="radinfo">
 	<p> RADIO WORKS SOMETIMES </p>
 	<p> ON EVENINGS </p>
 	<p> ON THIS MOMENT RADIO IS - OFF </p>
+	</div>
+	
+
 	
 </body>
 </html>
