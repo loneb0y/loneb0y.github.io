@@ -1,0 +1,44 @@
+@charset "utf-8"
+
+@font-face {
+    font-family: Algerian; 
+    src: url(fonts/Algerian.ttf);
+   }
+
+	
+	body {
+	background-image: url(rei_gif.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	}
+
+::selection {background: white; color: red;}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.links {
+	color: white;
+	font-size: 20pt;
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
+
+a:hover {
+	color: red;
+	background: black;
+	text-decoration: none;
+	transition: all.1s ease;
+	-moz-transition: all.1s ease;
+	-webkit-transition: all.1s ease;
+}
+
+a:active {color: white}
