@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,700&subset=latin,cyrillic);
+*{
+cursor: url("larrow.gif"), auto;
+}
+body {
+    font-family: "Anonymous Pro";
+    font-size: 20px;
+    background-color: black;
+    color:white;
+}
+
+a {
+    color: #CC0000;
+    text-decoration: none;
+    cursor: url("larrow.gif"), auto;
+}
+h1 {
+    color:#fb3131;
+    font-weight: normal;  
+    letter-spacing: 10px;
+}
+
+a:visited {
+    color: #CC0000;
+}
+
+a:hover {
+	color: #6c88b5;
+}
+
+.primary{
+  width:700px;
+  height: auto;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:3%;
+  margin-bottom:3%;
+  padding: 5px;
+  border: 5px;
+  border-color: #B20000;
+  border-style: double;
+  box-shadow: white 0px 1px 7px 0px;
+}
+
+.links{
+    letter-spacing: 6px;
+    font-family: "Anonymous Pro";
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.border-fade{
+    animation: borderfade 2.6s linear infinite;
+    animation-delay: 1s;
+}
+.fade-text{
+    animation: fade 2.6s ease-in-out infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes borderfade{
+50%{
+   border-color: #470000;
+   border-radius: 1px;
+}
+}
+@keyframes fade{
+50%{
+    text-shadow: red 0px 0px 10px;
+}
+
+}

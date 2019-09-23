@@ -1,0 +1,99 @@
+<!DOCTYPE html><html><head><title>Preview</title>
+<style type="text/css"><!--
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,700&subset=latin,cyrillic);
+*{
+cursor: url("larrow.gif"), auto;
+}
+body {
+    font-family: "Anonymous Pro";
+    font-size: 20px;
+    background-color: black;
+    color:white;
+}
+
+a {
+    color: #CC0000;
+    text-decoration: none;
+    cursor: url("larrow.gif"), auto;
+}
+h1 {
+    color:black;
+    font-weight: normal;  
+    letter-spacing: 2px;
+}
+
+a:visited {
+    color: #CC0000;
+}
+
+a:hover {
+}
+
+.primary{
+  width:700px;
+  height: auto;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:200px;
+  margin-bottom:200px;
+  padding: 5px;
+  border: 5px;
+  border-color: #B20000;
+  border-style: double;
+  box-shadow: white 0px 1px 7px 0px;
+}
+
+.links{
+    letter-spacing: 6px;
+    font-family: "Anonymous Pro";
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.border-fade{
+    animation: borderfade 2.6s linear infinite;
+    animation-delay: 1s;
+}
+.fade-text{
+    animation: fade 2.6s ease-in-out infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes borderfade{
+50%{
+   border-color: #470000;
+   border-radius: 1px;
+}
+}
+@keyframes fade{
+50%{
+    text-shadow: red 0px 0px 5px;
+}
+
+}
+
+
+--></style>
+</head>
+<body>
+<a name="0"></a><div>Class </div>
+<br>
+<a name="1"></a><body>Element body</body><br>
+<a name="2"></a><a href="http://www.blumentals.net" target="_blank">Link</a><br>
+<a name="3"></a><h1>Element h1</h1><br>
+<a name="4"></a><a href="http://www.blumentals.net" target="_blank">Link</a><br>
+<a name="5"></a><a href="http://www.blumentals.net" target="_blank">Link</a><br>
+<a name="6"></a><div class="primary">Class primary</div>
+<br>
+<a name="7"></a><div class="links">Class links</div>
+<br>
+<a name="8"></a><div class="border-fade">Class border-fade</div>
+<br>
+<a name="9"></a><div class="fade-text">Class fade-text</div>
+<br>
+<a name="10"></a><50% (@keyframes borderfade)>Element 50% (@keyframes borderfade)</50% (@keyframes borderfade)><br>
+<a name="11"></a><50% (@keyframes fade)>Element 50% (@keyframes fade)</50% (@keyframes fade)><br>
+
+</body></html>
